@@ -1,2 +1,0 @@
-# historiasreact
-Created with CodeSandbox
