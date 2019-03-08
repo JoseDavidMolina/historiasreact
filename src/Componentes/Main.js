@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import preguntas from "./datos.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Historia from "./Historia.js";
@@ -20,12 +20,16 @@ class Main extends React.Component {
   }
 
   render() {
-    console.log(preguntas[this.state.pregunta].end);
     return (
       <div className="d-flex justify-content-center ">
         {this.renderHistoria(preguntas[this.state.pregunta].end)}
       </div>
     );
+  }
+
+  cambiar() {
+    //console.log(preguntaACambiar);
+    this.setState({ pregunta: localStorage.getItem("sesion") });
   }
 
   renderHistoria(comprobarFinal) {
@@ -34,6 +38,7 @@ class Main extends React.Component {
         <Historia
           datosHistoria={preguntas[this.state.pregunta]}
           finalOcultado="hidden"
+          pregunta={() => this.cambiar()}
         />
       );
     } else {
@@ -41,6 +46,7 @@ class Main extends React.Component {
         <Historia
           datosHistoria={preguntas[this.state.pregunta]}
           ocultado="hidden"
+          pregunta={() => this.cambiar()}
         />
       );
     }

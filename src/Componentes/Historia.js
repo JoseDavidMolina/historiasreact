@@ -4,17 +4,17 @@ import Button from "./Button.js";
 import "./Historia.css";
 
 class Historia extends React.Component {
-  cambioPregunta(z) {
-    console.log(z);
-    localStorage.setItem("sesion", z);
-    this.setState({ pregunta: z });
-    location.reload();
+  cambioPregunta(siguientePregunta) {
+    console.log(siguientePregunta);
+    localStorage.setItem("sesion", siguientePregunta);
+    //this.setState({ pregunta: siguientePregunta });
+    this.props.pregunta();
   }
 
   volver() {
-    this.setState({ pregunta: 0 });
     localStorage.setItem("sesion", 0);
-    location.reload();
+    this.setState({ pregunta: 0 });
+    this.props.pregunta();
   }
 
   render() {
