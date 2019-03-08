@@ -3,9 +3,8 @@ import preguntas from "./datos.json";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Historia from "./Historia.js";
 
-var preguntaSesion = 0;
-
 if (localStorage.getItem("sesion") != null) {
+  var preguntaSesion = 0;
   preguntaSesion = localStorage.getItem("sesion");
 } else {
   localStorage.setItem("sesion", 0);
@@ -21,24 +20,29 @@ class Main extends React.Component {
   }
 
   render() {
+    console.log(preguntas[this.state.pregunta].end);
     return (
-      <div className="justify-content-center">
+      <div className="d-flex justify-content-center ">
         {this.renderHistoria(preguntas[this.state.pregunta].end)}
       </div>
     );
   }
 
   renderHistoria(comprobarFinal) {
-    if (!comprobarFinal) {
-      <Historia
-        datosHistoria={preguntas[this.state.pregunta]}
-        finalOcultado="hidden"
-      />;
+    if (comprobarFinal === false) {
+      return (
+        <Historia
+          datosHistoria={preguntas[this.state.pregunta]}
+          finalOcultado="hidden"
+        />
+      );
     } else {
-      <Historia
-        datosHistoria={preguntas[this.state.pregunta]}
-        ocultado="hidden"
-      />;
+      return (
+        <Historia
+          datosHistoria={preguntas[this.state.pregunta]}
+          ocultado="hidden"
+        />
+      );
     }
   }
 

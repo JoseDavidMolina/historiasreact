@@ -1,7 +1,7 @@
 [
   {
     "idHistory": 0,
-    "title": "Luis entro en su casa despues de clase, ¿Como se sentia?",
+    "title": "Luis llego a casa despues de clase, ¿Como se sentia?",
     "answer1": "Con mucho sueño",
     "idAnswer1": 1,
     "answer2": "Con mucha hambre",
@@ -12,80 +12,80 @@
   },
   {
     "idHistory": 1,
-    "title": "Jose Maria y sus colegas no saben que hacer ",
-    "answer1": "Ir a un bar de copas",
+    "title": "Luis se tumbo en la cama y tardo un rato en dormirse, ¿cuanto tiempo estuvo dormido?",
+    "answer1": "Media hora",
     "idAnswer1": 4,
-    "answer2": "Comerse una pipas en un banco",
+    "answer2": "Dos horas",
     "idAnswer2": 5,
-    "answer3": "Andar por la calle sin destino",
+    "answer3": "Seis horas",
     "idAnswer3": 6,
     "end": false
   },
   {
     "idHistory": 2,
-    "title": "Jose Maria no sabe que asignatura estudiar",
-    "answer1": "Diseño",
+    "title": "Luis se fue a la cocina y abrio la nevera, ¿que hizo?",
+    "answer1": "Vio que no tenia nada para comer y pidio un campero.",
     "idAnswer1": 7,
-    "answer2": "JavaScript",
+    "answer2": "Se preparo una tortilla de patatas.",
     "idAnswer2": 8,
-    "answer3": "php",
+    "answer3": "Se preparo una pizza.",
     "idAnswer3": 9,
     "end": false
   },
   {
     "idHistory": 3,
-    "title": "Jose Maria no sabia que serie ver",
-    "answer1": "Evangelion",
+    "title": "Luis se sento en el ordenador, ¿Que juego abrió?",
+    "answer1": "League of Legends",
     "idAnswer1": 10,
-    "answer2": "One Piece",
+    "answer2": "World of Warcraft",
     "idAnswer2": 11,
-    "answer3": "Mejor jugar al wow con Jose David Molina",
+    "answer3": "Apex Legends",
     "idAnswer3": 12,
     "end": false
   },
   {
     "idHistory": 4,
-    "title": "Jose Maria acabo muy malito vomitando y suspendio el examen de php porque no estudio al dia siguiente lo suficiente",
+    "title": "Luis se durmio durante media hora y se desperto aun cansado, pero se sentia mal por no estudiar y se puso a estudiar",
     "end": true
   },
   {
     "idHistory": 5,
-    "title": "Jose Maria se compro unas pipas sabor tijuana y se las comio con sus colegas en el parque de la cascada",
+    "title": "Luis se durmio durante dos horas y se desperto como nuevo, y pudo estudiar de forma eficiente.",
     "end": true
   },
   {
     "idHistory": 6,
-    "title": "Jose Maria ando un rato por el paseo marítimo hasta que se cansó y se fue a su casa temprano por lo que estudió al dia siguiente y aprobó php",
+    "title": "Luis se durmio durante seis horas y se sintio muy mal, estudio mal porque no pudo concentrarse hasta muy tarde.",
     "end": true
   },
   {
     "idHistory": 7,
-    "title": "Jose Maria estudio duramente para el examen de accesibilidad y consiguió sacar un cinquillo",
+    "title": "Los de la comida a domicilio tardaron una hora y media en enviar el campero y Luis no pudo comer hasta las 5 de la tarde.",
     "end": true
   },
   {
     "idHistory": 8,
-    "title": "Jose María se puso a aprender react pero no entendia nada lo que lo llevo a una confusión enorme de la cual nunca se repuso",
+    "title": "Luis preparo una tortilla de patatas muy buena aunque un poco salada.",
     "end": true
   },
   {
     "idHistory": 9,
-    "title": "Jose Maria intento hacer la última practica de php pero no funcionaba por lo cual se rindió y se puso a jugar al wow",
+    "title": "Luis metio la pizza en el horno y se sento en el sofa, y del cansancio que tenia se quedo dormido y se le quemo.",
     "end": true
   },
   {
     "idHistory": 10,
-    "title": "Jose Maria vio Evangelion de nuevo y empezó a buscar teorias en internet para dar una explicación a lo que acababa de ver",
+    "title": "Luis empezo a jugar a League of Legends y jugo una partida por lo que en media hora estaba ya mas tranquilo y estudio bien",
     "end": true
   },
   {
     "idHistory": 11,
-    "title": "Jose Maria se tragó horas y horas de relleno acabando exahusto aquella noche",
+    "title": "Luis abrió el World of Warcraft y empezo a jugar con un amigo, perdio la nocion del tiempo y estubo jugando toda la tarde hasta la hora de cenar.",
     "end": true
   },
   {
     "idHistory": 12,
-    "title": "Jose Maria contactó con Jose David Molina pero este no queria jugar con el lo que lo entristeció profundamente pues el creia que Jose David nunca le fallaría",
+    "title": "Luis abrió Apex Legend y no fue capaz de aguantar mas de dos minutos jugando ya que el juego no es nada bueno.",
     "end": true
   }
 ]
